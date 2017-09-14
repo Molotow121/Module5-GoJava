@@ -10,7 +10,7 @@ public class Car {
     private int passengerCapacity;
     private int passengerIn;
     private int currentSpeed;
-    ArrayList<CarWheel> wheels; // массив колес
+    ArrayList<CarWheel> wheels;
     int[] doors;
 
     public Car() {
@@ -66,13 +66,13 @@ public class Car {
         System.out.println("Disembark everyone out the car " + 0);
     }
 
-    public void Door() {
+    public void door() {
         int Door = doors[(int) (Math.random() * 4)];
         System.out.println("Door number " + Door);
     }
 
-    public void Wheel() {
-        Object Wheel = wheels.get((int) (Math.random() * wheels.size()));//????????????????????????????????
+    public void wheel(){
+        int Wheel = (int)Math.floor (Math.random() * wheels.size());
         System.out.println("Wheel number " + Wheel);
     }
 
