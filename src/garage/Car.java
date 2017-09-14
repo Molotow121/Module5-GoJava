@@ -76,6 +76,7 @@ public class Car {
         System.out.println("Wheel number " + Wheel);
     }
 
+
     public void removeWheels() {
         wheels.clear();
         System.out.println("Remove the wheel from the car " + wheels.size());
@@ -99,6 +100,7 @@ public class Car {
     }
 
     public void Info(){
+        System.out.println();
         System.out.println("INFORMATION OF CAR:");
         System.out.println("Create date of car: " + createDate);
         System.out.println("Engine's type: " + engine);
