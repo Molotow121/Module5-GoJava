@@ -41,8 +41,8 @@ public class Main {
 		Car.passengerPlus();
 		Car.passengerMinus();
 		Car.disembarkAll();
-		Car.Door();
-		Car.Wheel();
+		Car.door();
+		Car.wheel();
 		Car.removeWheels();
 		Car.wheelPlus();
 		Car.MaxSpeed();
