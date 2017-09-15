@@ -90,7 +90,7 @@ public class Car {
         System.out.println("Plus " + wheels.size() + " new wheels");
     }
 
-    public void MaxSpeed() {
+    public void maxSpeed() {
         CarWheel carWheel = new CarWheel();
         if (this.passengerIn > 0 && carWheel.getTireIntegrity() > 0) {
             double speed = maxSpeed * (wheels.get(0).getTireIntegrity());
@@ -99,7 +99,7 @@ public class Car {
             System.out.println("The car is empty");
     }
 
-    public void Info(){
+    public void info(){
         System.out.println();
         System.out.println("INFORMATION OF CAR:");
         System.out.println("Create date of car: " + createDate);

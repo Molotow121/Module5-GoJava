@@ -1,7 +1,4 @@
-import garage.Car;
-import garage.CarDoor;
-import garage.CarWheel;
-import garage.CarWindow;
+import garage.*;
 
 public class Main {
 
@@ -10,17 +7,17 @@ public class Main {
     	CarDoor carDoor = new CarDoor();
     	CarWindow carWindow = new CarWindow();
 
-		carDoor.OpenDoor();
-		carDoor.CloseDoor();
-		carDoor.OpenOrCloseDoor();
-		carDoor.Info();
+		carDoor.openDoor();
+		carDoor.closeDoor();
+		carDoor.openOrCloseDoor();
+		carDoor.info();
 
 		System.out.println();
 
-		carWindow.OpenWindow();
-		carWindow.CloseWindow();
-		carWindow.OpenOrCloseWindow();
-		carWindow.Info();
+		carWindow.openWindow();
+		carWindow.closeWindow();
+		carWindow.openOrCloseWindow();
+		carWindow.info();
 
 		System.out.println();
 
@@ -45,8 +42,11 @@ public class Main {
 		Car.wheel();
 		Car.removeWheels();
 		Car.wheelPlus();
-		Car.MaxSpeed();
-		Car.Info();
+		Car.maxSpeed();
+		Car.info();
+
+		System.out.println();
+		Interface.main();
 
 
 	// write your code here

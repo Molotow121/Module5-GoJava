@@ -12,7 +12,7 @@ public class CarWindow {
         this.window = window;
     }
 
-    public void OpenWindow() {
+    public void openWindow() {
         if (window) {
             System.out.println("The window is open");
         } else {
@@ -20,7 +20,7 @@ public class CarWindow {
         }
     }
 
-    public void CloseWindow() {
+    public void closeWindow() {
         if (!window) {
             System.out.println("The window is close");
         } else {
@@ -28,7 +28,7 @@ public class CarWindow {
         }
     }
 
-    public void OpenOrCloseWindow() {
+    public void openOrCloseWindow() {
         if (window) {
             window = true;
             System.out.println("Window opened");
@@ -39,7 +39,7 @@ public class CarWindow {
 
     }
 
-    public void Info() {
+    public void info() {
         System.out.println("Window is " + (window ? "open" : "close"));
     }
 }

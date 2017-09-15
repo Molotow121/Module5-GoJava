@@ -12,7 +12,7 @@ public class CarDoor {
         this.door = door;
     }
 
-    public void OpenDoor() {
+    public void openDoor() {
         if (door) {
             System.out.println("The door is open");
         } else {
@@ -20,7 +20,7 @@ public class CarDoor {
         }
     }
 
-    public void CloseDoor() {
+    public void closeDoor() {
         if (!door) {
             System.out.println("The door is close");
         } else {
@@ -28,7 +28,7 @@ public class CarDoor {
         }
     }
 
-    public void OpenOrCloseDoor() {
+    public void openOrCloseDoor() {
         if (door) {
             door = true;
             System.out.println("Door opened");
@@ -39,7 +39,7 @@ public class CarDoor {
 
     }
 
-    public void Info() {
+    public void info() {
         System.out.println("Door is " + (door ? "open" : "close"));
     }
 }
