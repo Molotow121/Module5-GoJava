@@ -2,7 +2,7 @@ package garage;
 
 import java.util.Scanner;
 
-public class Interface {
+public class Start {
     public static void main() {
         Scanner sc = new Scanner(System.in);
         CarDoor carDoor = new CarDoor();

@@ -46,7 +46,7 @@ public class Main {
 		Car.info();
 
 		System.out.println();
-		Interface.main();
+		Start.main();
 
 
 	// write your code here
